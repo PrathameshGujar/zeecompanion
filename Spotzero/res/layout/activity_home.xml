@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/videodemo_btn" />
+    
+    <ImageButton
+        android:id="@+id/refill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/refilldemo_btn" />
+    
+    <ImageButton
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@android:color/transparent"
+        android:src="@drawable/products_btn" />
+    
+
+</LinearLayout>
