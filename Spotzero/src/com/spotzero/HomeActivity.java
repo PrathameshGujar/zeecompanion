@@ -30,9 +30,6 @@ public class HomeActivity extends Activity implements OnClickListener{
 			startActivity(new Intent(HomeActivity.this,LanguageSelection.class));
 			
 			break;
-
-		default:
-			break;
 		}
 	}
 }
