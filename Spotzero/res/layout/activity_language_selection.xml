@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/hintview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dip"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:text="@string/lang_hint" />
+    
+    <ImageButton 
+        android:id="@+id/hindiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hintview"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:src="@drawable/hindi_btn"
+        />
+    
+    <ImageButton 
+        android:id="@+id/englishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hindiBtn"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:src="@drawable/english_btn"
+        />
+
+</RelativeLayout>

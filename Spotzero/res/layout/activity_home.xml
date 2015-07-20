@@ -9,7 +9,7 @@
         android:id="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dip"
+        android:layout_marginTop="160dip"
         android:background="@android:color/transparent"
         android:src="@drawable/videodemo_btn" />
     

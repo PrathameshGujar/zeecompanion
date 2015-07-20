@@ -19,6 +19,7 @@ public class SplashScreen extends Activity{
 			public void run() {
 				// TODO Auto-generated method stub
 				startActivity(new Intent(SplashScreen.this,HomeActivity.class));
+				finish();
 			}
 		}, 3000);
 	}
